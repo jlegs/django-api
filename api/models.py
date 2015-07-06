@@ -21,7 +21,7 @@ class FizzBuzz(object):
 	We could have put this logic in the view, but fat models and skinny views are the way to go. This way also makes it
 	easier to test smaller portions of code.
 
-	This class enables us to call self.create_fizzbuzz_dict(), which returns a dict with the key 'numbers', and the value num_list. 
+	This class enables us to call object.create_fizzbuzz_dict(), which returns a dict with the key 'numbers', and the value num_list. 
 
 	Class is initialized with positional arguments:
 
