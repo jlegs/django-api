@@ -14,7 +14,7 @@ up and running.
 
 	workon django-api (if it doesn't automatically do this when you create your virtualenv)
 
-	cd /path/to/manage.py
+	cd /path/to/manage.py 
 
 	pip install -r requirements.txt
 
