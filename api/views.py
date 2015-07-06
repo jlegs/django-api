@@ -34,7 +34,7 @@ def fizzbuzz(request):
     fizzbuzz_dict = fizzbuzz.create_fizzbuzz_dict()
     fizzbuzz_dict['status'] = stat['message']
 
-    return Response(fizzbuzz_dict, status=stat['code'])
+    return Response(json.dumps(fizzbuzz_dict), status=stat['code'])
 
 
 
